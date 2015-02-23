@@ -28,7 +28,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This Function Check The Getinv of the Object That Created By Prev Function If Its Solve Cache Exist Then Return It , Else Compute The Invert Of The Matrix By Solve(matrix) if The Matrix is Square.
 ## This function checks the getinv of the object created above, if the cache exists it returns it. Else, it computes the inverse of the matrix using the solve() and storing it to i, sets i to that value,
 
 cacheSolve <- function(x, ...) {
